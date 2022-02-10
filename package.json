@@ -25,12 +25,12 @@
   },
   "homepage": "https://github.com/nhitruong96/nodejs_blog#readme",
   "lint-staged": {
-    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write",
-    "*.{js,css,md}": "prettier --write"
+    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
   "dependencies": {
     "express": "^4.17.2",
-    "express-handlebars": "^6.0.2"
+    "express-handlebars": "^6.0.2",
+    "mongoose": "^6.2.1"
   },
   "devDependencies": {
     "husky": "^7.0.4",
